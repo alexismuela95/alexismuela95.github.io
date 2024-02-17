@@ -3,53 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Estética</title>
+    <title>Alexis Muela - Ingeniero Civil</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
         }
 
         .container {
-            text-align: center;
-            background-color: #fff;
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
+        h1, h2, p {
             color: #333;
         }
 
-        p {
-            color: #666;
-            line-height: 1.6;
+        .experience {
+            margin-top: 20px;
         }
 
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 20px;
-            background-color: #007bff;
+        .contact-bar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: #333;
             color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>Alexis Muela</h1>
+    <p>QC Coordinator | Civil Structural Engineer | Mining</p>
+</header>
+
 <div class="container">
-    <h1>Bienvenido a mi Página Estética</h1>
-    <p>Esta es una página de ejemplo con un diseño estético.</p>
-    <a href="#" class="btn">¡Explora más!</a>
+    <section id="extract">
+        <h2>Extracto</h2>
+        <p>Books and bridges have been my source of inspiration, my journey from 3D modeling and structural analysis has led me to my current role as a Quality Control Coordinator at Ecuacorriente S.A., where I ensure high standards in tailings dam construction. With a background in site engineering, my expertise lies in blending technical design and quality control for bridges, reflecting a passion for excellence in every project.</p>
+    </section>
+
+    <section class="experience">
+        <h2>Experiencia</h2>
+        <!-- Aquí puedes agregar cada experiencia laboral -->
+        <h3>Ecuacorriente S.A.</h3>
+        <p>Coordinador QC Departamento de Gestión de Depósito de Relaves</p>
+        <p>octubre de 2023 - Present (5 meses)</p>
+        <p>El Pangui, Zamora Chinchipe, Ecuador</p>
+        <p>Dar seguimiento y controlar la ejecución de los ensayos de campo y laboratorio según normativa ASTM...</p>
+
+        <!-- Agrega más experiencias laborales según sea necesario -->
+
+    </section>
+</div>
+
+<div class="contact-bar">
+    <h3>Contactar</h3>
+    <p>Email: bryanmuela@hotmail.com</p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/amuela95">www.linkedin.com/in/amuela95</a></p>
 </div>
 
 </body>
